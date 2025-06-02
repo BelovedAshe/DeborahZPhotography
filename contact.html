@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deborah Zambrano Photography</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="contact.css"/>
+</head>
+
+<body>
+    <header class="header" id="home">
+        <nav>
+            <div class="nav_header">
+                <div class="nav_logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="logo" />
+                    </a>
+                </div>
+                <div class="nav_menu_btn" id="menu-btn">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+            <ul class="nav_links" id='nav-links'>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li class="nav_logo">
+                    <a href="#">
+                        <img src="images/logo.png" alt="logo"/>
+                    </a>
+                </li>
+                <li><a href="pricing.html">PRICING</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container">
+        <div class="item">
+            <div class="contact">
+                <div class="first-text">Let's get in touch!</div>
+                <img src="images/logo.png">
+            <div class="social-links">
+                <span class="second-text">Connect with Us:</span>
+                                <ul class="social-media">
+                    <li><a href="https://www.facebook.com/deborahwilliamsphotos"><i class="ri-facebook-circle-fill"></i></a></li>
+                    <li><a href="https://www.instagram.com/deborahzphotography/"><i class="ri-instagram-fill"></i></a></li>
+                    <li class="email-item">
+                        <a href="mailto:deborahzphotography@gmail.com">
+                            <i class="ri-mail-fill"></i>
+                            <span class="email-tooltip">deborahzphotography@gmail.com</span>
+                        </a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+            <div class="submit-form">
+                <h4 class="third-text">Contact Us</h4>
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="8abb3dbb-c1f2-4e39-9f7f-68334510c533">
+                    <div class="input-box">
+                        <input type="text" name="Name" class="input" required>
+                        <label for="">Name</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="email" name="Email" class="input" required>
+                        <label for="">Email</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="tel" name="Phone" class="input" required>
+                        <label for="">Phone</label>
+                    </div>
+                    <div class="input-box">
+                        <textarea name="message" class="input" required id="message" cols="30" rows="10"></textarea>
+                        <label for="">Message</label>
+                    </div>
+                    <input type="submit" class="btn" value="Submit">
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+    <script src="main.js"></script>
